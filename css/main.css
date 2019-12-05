@@ -60,17 +60,12 @@ html {
 
 @media print {
 
-  .not-print {
-    display: none;
+  .inset-img {
+    border-color: #000;
   }
 
   .chapter-ends {
-    border-color: #fff;
-  }
-
-  .inset-img {
-    display: none;
-    border-color: #000;
+    border: none;
   }
 
 }
