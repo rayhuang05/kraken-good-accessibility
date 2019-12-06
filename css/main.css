@@ -60,10 +60,6 @@ html {
 
 @media print {
 
-  .not-print {
-    display: none;
-  }
-
   .chapter-ends {
     border-color: #fff;
   }
@@ -71,6 +67,10 @@ html {
   .inset-img {
     display: none;
     border-color: #000;
+  }
+
+  .no-print {
+    display: none;
   }
 
 }
